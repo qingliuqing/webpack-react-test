@@ -1,0 +1,39 @@
+@import "reset";
+
+@base_fz: 75rem;
+
+html,body,#app{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.tab-list{
+    width: 25%;
+    height:100%;
+    background-color: #d397e1;
+    ul{
+        height:100%;
+        display: flex;
+        flex-flow: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        li {
+            
+            flex: 1 1 auto;
+            color: #666;
+            font-size: 12px;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width:100%;
+        }
+        li.active{
+            width:100%;
+            background-color: #ccc;
+        }
+    }
+        
+    
+}
